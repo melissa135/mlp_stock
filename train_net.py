@@ -40,7 +40,7 @@ def early_stop(lst,ma):
 def train(trainloader,testloader):
 
     max_epochs = 100
-    moving_average = 20
+    moving_average = 30
 
     mlp = MLP()
     print mlp
@@ -73,7 +73,7 @@ def train(trainloader,testloader):
 
         train_c = incorrectness(mlp,trainloader)
         test_c = incorrectness(mlp,testloader)
-        print ('[ %d ] incorrectness: %.3f %.3f' % (epoch+1,train_c,test_c))
+        print ('[ %d ] incorrectness: %.4f %.4f' % (epoch+1,train_c,test_c))
 	
 	mlp_list.append(mlp)
 	crt_list.append(train_c+test_c)
