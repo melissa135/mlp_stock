@@ -1,4 +1,4 @@
-# mlp_stock
+* # mlp_stock
 Stock price prediction using ensemble MLP in PyTorch.
 
 Predict the index changes by the fluctuation of index and volume in the last 5 days.  
@@ -23,5 +23,5 @@ The red line is asset sequence if we buy/sell CISSM-ETF according to our ensembl
 
 
 ## Tips
-Train samples are limited, using drop-out and early-stop to prevent overfitting.  
-Simulated trading using this strategy, see https://xueqiu.com/P/ZH931230 .
+* Train samples are limited, using drop-out and early-stop to prevent overfitting.  
+* Simulated trading using this strategy, see https://xueqiu.com/P/ZH931230 .
