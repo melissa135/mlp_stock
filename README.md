@@ -1,4 +1,4 @@
-* # mlp_stock
+# mlp_stock
 Stock price prediction using ensemble MLP in PyTorch.
 
 Predict the index changes by the fluctuation of index and volume in the last 5 days.  
