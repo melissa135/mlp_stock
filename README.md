@@ -1,7 +1,7 @@
 # mlp_stock
 Stock price prediction using ensemble MLP in PyTorch.
 
-Predict the index changes by the fluctuation of index and volume in the last 5 days
+Predict the index changes by the fluctuation of index and volume in the last 5 days.  
 Train data is the daily CISSM (Compositional Index of Shenzhen Stock Market) from 2005/01 to 2015/06, the test data is from 2015/07 to 2017/05.
 
 ## Requirements
@@ -23,4 +23,5 @@ The red line is asset sequence if we buy/sell CISSM-ETF according to our ensembl
 
 
 ## Tips
-Train samples are limited, using drop-out and early-stop to prevent overfitting.
+Train samples are limited, using drop-out and early-stop to prevent overfitting.  
+Simulated trading using this strategy, see https://xueqiu.com/P/ZH931230 .
